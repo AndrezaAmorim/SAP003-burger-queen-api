@@ -104,27 +104,3 @@ class ProductsController {
 }
 
 export default ProductsController
-
-
-
-// import models from '../../models/index';
-
-// const getAll = async (req, res) =>{
-
-// 	const products = await models.products.findAll({raw: true})
-// 	res.json(products)
-// }
-
-// const addProducts = async (req, res) =>{
-// 	const newProducts = await models.products.send({raw: true})
-// 	res.json(newProducts)
-// }
-
-// const updatedProducts = async (req, res) =>{
-// 	const 
-// }
-
-// export default{
-// 	getAll,
-// 	addProducts
-// }
