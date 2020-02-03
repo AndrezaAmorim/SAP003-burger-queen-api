@@ -53,3 +53,5 @@ Entre os arquivos, incluímos um `docker-compose.yml`. Isso significa que, neste
 * DBeaver
 * Docker
 * Heroku
+* JavasScript (ES6)
+* HTML5
