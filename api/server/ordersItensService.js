@@ -39,7 +39,7 @@ class OrdersItensService {
       const theOrdersItens = await models.ordersItens.findOne({
         where: { id: Number(id) }
       })
-
+      
       return theOrdersItens
     } catch (error) {
       throw error

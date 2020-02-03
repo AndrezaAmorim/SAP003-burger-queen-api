@@ -8,7 +8,6 @@ module.exports = (sequelize, DataTypes) => {
   }, {});
   orders.associate = function(models) {
     orders.hasMany(models.ordersItens)
-    // orders.belongsTo(models.table)
   };
   return orders;
 };

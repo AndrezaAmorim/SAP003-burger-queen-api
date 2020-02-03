@@ -18,7 +18,6 @@ app.use('/api/products', productRoutes);
 app.use('/api/orders', ordersRoutes);
 app.use('/api/ordersItens', ordersItensRoutes);
 
-// when a random route is inputed
 app.get('*', (req, res) => res.status(200).send({
   message: 'Welcome to this API.',
 }));
